@@ -80,7 +80,7 @@ By contributing to this project, you agree to abide by its terms.
 
 == ⚖️ Legal Notices
 
-Copyright © {year}, Rotaract Deutschland
+Copyright © {year}, Benno Bielmeier, Rotaract Deutschland
 
 Licensed under European Union Public License 1.2 (EUPL-1.2).
 
