@@ -20,3 +20,7 @@ The format is based on https://keepachangelog.com/en/1.0.0/[Keep a Changelog], a
 === Fixed
 
 === Security
+
+== 1.0.0
+
+Initial stable version providing two inputs: `format` and `pattern`.
