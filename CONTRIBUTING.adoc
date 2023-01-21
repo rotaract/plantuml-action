@@ -1,0 +1,15 @@
+= Contributing
+
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+
+By participating in this project, you agree to abide by the link:CODE_OF_CONDUCT.adoc[code of conduct].
+We expect everyone to follow the code of conduct anywhere in project codebase, issue trackers, chatrooms, and mailing lists.
+
+== Submitting an Issue
+
+== Submitting a Pull Request
+
+Follow the https://docs.github.com/en/get-started/quickstart/github-flow[GitHub flow].
+
+.Make sure
+* Update the link:CHANGELOG.adoc[]. (https://github.com/powerman/asciidoc-cheatsheet[This AsciiDoc cheatsheet] might be helpful)

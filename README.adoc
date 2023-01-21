@@ -1,0 +1,48 @@
+= PlantUML GitHub Action
+Rotaract Germany
+
+ifdef::env-github[]
+:tip-caption: 💡
+:note-caption: ℹ
+:important-caption: ❗
+:caution-caption: 🔥
+:warning-caption: ⚠
+endif::[]
+
+:badge_url: https://img.shields.io
+:custom_badge: {badge_url}/badge
+:slug: plantuml-action
+:repo_path: rotaract/{slug}
+
+:year: 2023
+
+// General Badges
+image:{custom_badge}/Open_Source-❤-orange[Open Source, link="https://opensource.org"]
+image:{custom_badge}/Made_by-Rotaract_Germany-d41367[Rotaract Germany, link="https://rotaract.de"] +
+// Status Badges
+image:https://img.shields.io/maintenance/yes/{year}[Maintenance Status]
+// image:https://img.shields.io/website?url=https%3A%2F%2Frotaract.de[Website Status, link="https://rotaract.de"]
+
+== 🔎 Overview
+
+Generation of PlantUML diagrams in a https://github.com/features/actions[GitHub Action] using the official https://hub.docker.com/r/plantuml/plantuml[plantuml/plantuml] Docker image.
+
+== 🖱️ Usage
+
+== 📃 Code of Conduct
+
+Please note that this project is release with the link:CODE_OF_CONDUCT.adoc[Contributor Covenant Code of Conduct].
+By contributing to this project, you agree to abide by its terms.
+
+== ⚖️ Legal Notices
+
+Copyright © {year}, Rotaract Deutschland
+
+Licensed under European Union Public License 1.2 (EUPL-1.2).
+
+_Rotary_, _Rotaract_, and _Interact_ are trademarks or registered trademarks of Rotary International and are used with the permission of Rotary International.
+Other trademarks not owned by Rotary International are the property of their respective owners.
+The license above does not grant any rights under trademark law and all such rights are reserved.
+Modified versions must be renamed to avoid use of any Rotary International trademarks, including but not limited to _Rotary_, _Rotaract_, and _Interact_.
+
+All Rotary, Rotaract, and Interact logos and graphics are under copyright.
