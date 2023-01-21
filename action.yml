@@ -1,0 +1,24 @@
+---
+name: "PlantUML GitHub Action"
+description: |
+  Generate images from PlantUML files.
+author: "@bbenno"
+inputs:
+  format:
+    description: "Format of output images."
+    required: true
+    default: "png"
+  pattern:
+    description: "Files/Dirs that can contain wildcards"
+    required: true
+    default: "**.puml"
+runs:
+  using: "docker"
+  image: "docker://plantuml/plantuml:1.2023.0"
+  args:
+    - "-verbose"
+    - "-t${{ inputs.format }}"
+    - "${{ inputs.pattern }}"
+branding:
+  icon: "image"
+  color: "white"
