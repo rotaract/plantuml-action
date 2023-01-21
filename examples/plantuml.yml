@@ -1,0 +1,24 @@
+name: Generate PlantUML Diagrams
+on:
+  push:
+    paths: [ "**.puml" ]
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate PlantUML Diagrams
+        uses: rotaract/plantuml-action@v1
+        with:
+          format: pdf
+          pattern: "docs/**.puml"
+
+      - name: Upload Diagrams
+        uses: actions/upload-artifact@v3
+        with:
+          name: diagrams
+          path: "**.pdf"

@@ -27,7 +27,51 @@ image:https://img.shields.io/maintenance/yes/{year}[Maintenance Status]
 
 Generation of PlantUML diagrams in a https://github.com/features/actions[GitHub Action] using the official https://hub.docker.com/r/plantuml/plantuml[plantuml/plantuml] Docker image.
 
+== 🎚️ Inputs
+
+`format`::
+  *Required.*
+  The format of the output images that will be generated in the workspace
+  [
+  `png` (Default), `svg`,
+  `eps`, `eps:text`, `pdf`,
+  `vdx`, `xmi`, `scxml`,
+  `html`,
+  `txt`, `utxt`,
+  `latex`, `latex:nopreamble`,
+  `braille`
+  ]. +
+  See also: https://plantuml.com/command-line#458de91d76a8569c[PlantUML Command Line: Types of Output File].
+`pattern`::
+  *Required.*
+  The pattern of files/dirs that will be processed.
+  It can include `\*`, `\**`, and `?`.
+  Example patterns are:
+  `\**.puml` (Default),
+  `doc/*.pu`. +
+  See also: https://plantuml.com/command-line#b0bd0c28426e3c8d[PlantUML Command Line: Wildcards].
+
 == 🖱️ Usage
+
+.Minimal
+[source,yml]
+----
+include::examples/plantuml.yml[lines="14..15"]
+----
+
+.Customized
+[source,yml]
+----
+include::examples/plantuml.yml[lines="14..18"]
+----
+
+== 🛠️ Example
+
+..github/workflows/plantuml.yml
+[source,yml]
+----
+include::examples/plantuml.yml[]
+----
 
 == 📃 Code of Conduct
 
