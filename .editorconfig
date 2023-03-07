@@ -15,3 +15,7 @@ trim_trailing_whitespace = false
 
 [*.{md,adoc,yml,yaml}]
 indent_style = space
+
+[LICENSE]
+indent_size = unset
+indent_style = unset
