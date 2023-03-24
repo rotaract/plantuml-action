@@ -14,7 +14,7 @@ inputs:
     default: "**.puml"
 runs:
   using: "docker"
-  image: "docker://plantuml/plantuml:1.2023.4"
+  image: "docker://plantuml/plantuml:1.2023.5"
   args:
     - "-verbose"
     - "-t${{ inputs.format }}"
