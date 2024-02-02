@@ -14,7 +14,7 @@ endif::[]
 :slug: plantuml-action
 :repo_path: rotaract/{slug}
 
-:year: 2023
+:year: 2024
 
 // General Badges
 image:{custom_badge}/Open_Source-❤-orange[Open Source, link="https://opensource.org"]
@@ -80,7 +80,7 @@ By contributing to this project, you agree to abide by its terms.
 
 == ⚖️ Legal Notices
 
-Copyright © {year}, Benno Bielmeier, Rotaract Deutschland
+Copyright © 2023-{year}, Benno Bielmeier
 
 Licensed under European Union Public License 1.2 (EUPL-1.2).
 
