@@ -14,7 +14,7 @@ endif::[]
 :slug: plantuml-action
 :repo_path: rotaract/{slug}
 
-:year: 2024
+:year: 2025
 
 // General Badges
 image:{custom_badge}/Open_Source-❤-orange[Open Source, link="https://opensource.org"]
